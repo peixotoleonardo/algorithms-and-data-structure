@@ -11,5 +11,9 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^26.5.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "roots": ["<rootDir>/exercises"]
   }
 }
