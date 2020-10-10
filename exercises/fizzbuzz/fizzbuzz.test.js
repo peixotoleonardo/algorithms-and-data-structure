@@ -1,4 +1,4 @@
-const fizzbuzz = require('./fizzbuzz');
+const { fizzBuzz } = require('./fizzbuzz');
 
 beforeEach(() => {
     jest.spyOn(console, 'log');
